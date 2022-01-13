@@ -28,6 +28,7 @@ git branch: 'development', credentialsId: '8fb9f2d6-99da-43b8-ac88-973f6c5d2df1'
 
 
 //do the build
+/*
 stage('Build')
 {
 steps{
@@ -57,5 +58,6 @@ sshagent(['40bf914b-0332-4b57-980f-828a6e3ac99c']) {
 }
 }
 }
+*/
 }//stagesclosing
 }//pipeline closing
